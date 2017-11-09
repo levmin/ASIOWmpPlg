@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{b186ec9e-d8a1-4d54-85e7-090a8f913cf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{a4be3e8b-b1e0-405f-9db9-d72f5e40ea28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7fba3d9a-ad08-4555-bcd1-95edcc74fe80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Win32">
+      <UniqueIdentifier>{798d9955-fc33-4110-82c5-c7168966cf39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\x64">
+      <UniqueIdentifier>{413b8655-7755-4f9a-b1e4-e8a3ff980c10}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32\ASIOWmpPlg_h.h">
+      <Filter>Source Files\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="x64\ASIOWmpPlg_h.h">
+      <Filter>Source Files\x64</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ASIOWmpPlgPS.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="ASIOWmpPlg.idl">
+      <Filter>Source Files</Filter>
+    </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ASIOWmpPlgPS.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Win32\ASIOWmpPlg_p.c">
+      <Filter>Source Files\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\ASIOWmpPlg_i.c">
+      <Filter>Source Files\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\dlldata.c">
+      <Filter>Source Files\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\ASIOWmpPlg_i.c">
+      <Filter>Source Files\x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\ASIOWmpPlg_p.c">
+      <Filter>Source Files\x64</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\dlldata.c">
+      <Filter>Source Files\x64</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

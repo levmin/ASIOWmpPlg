@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ASIOWmpPlg", "ASIOWmpPlg.vcproj", "{AD8760F8-7FE5-44BB-913B-D745EC243F9A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ASIOWmpPlgPS", "..\ASIOWmpPlgPS\ASIOWmpPlgPS.vcproj", "{CAE82BD9-5D51-4445-B454-EF9AF0B7CFEB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Install", "..\Install\Install.vcproj", "{465C3A15-0573-4FD6-B400-F6FACD3C0688}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Uninstall", "..\Uninstall\Uninstall.vcproj", "{7D6CDDB6-2238-4C84-A76F-FA9FBE5086C3}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 5
+		SccProjectName0 = Perforce\u0020Project
+		SccLocalPath0 = ..
+		SccProvider0 = MSSCCI:Perforce\u0020SCM
+		SccProjectFilePathRelativizedFromConnection0 = Plugin\\
+		SccProjectUniqueName1 = ASIOWmpPlg.vcproj
+		SccLocalPath1 = ..
+		SccProjectFilePathRelativizedFromConnection1 = Plugin\\
+		SccProjectUniqueName2 = ..\\ASIOWmpPlgPS\\ASIOWmpPlgPS.vcproj
+		SccLocalPath2 = ..
+		SccProjectFilePathRelativizedFromConnection2 = ASIOWmpPlgPS\\
+		SccProjectUniqueName3 = ..\\Install\\Install.vcproj
+		SccLocalPath3 = ..
+		SccProjectFilePathRelativizedFromConnection3 = Install\\
+		SccProjectUniqueName4 = ..\\Uninstall\\Uninstall.vcproj
+		SccLocalPath4 = ..
+		SccProjectFilePathRelativizedFromConnection4 = Uninstall\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD8760F8-7FE5-44BB-913B-D745EC243F9A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AD8760F8-7FE5-44BB-913B-D745EC243F9A}.Debug|Win32.Build.0 = Debug|Win32
+		{AD8760F8-7FE5-44BB-913B-D745EC243F9A}.Release|Win32.ActiveCfg = Release|Win32
+		{AD8760F8-7FE5-44BB-913B-D745EC243F9A}.Release|Win32.Build.0 = Release|Win32
+		{CAE82BD9-5D51-4445-B454-EF9AF0B7CFEB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CAE82BD9-5D51-4445-B454-EF9AF0B7CFEB}.Debug|Win32.Build.0 = Debug|Win32
+		{CAE82BD9-5D51-4445-B454-EF9AF0B7CFEB}.Release|Win32.ActiveCfg = Release|Win32
+		{CAE82BD9-5D51-4445-B454-EF9AF0B7CFEB}.Release|Win32.Build.0 = Release|Win32
+		{465C3A15-0573-4FD6-B400-F6FACD3C0688}.Debug|Win32.ActiveCfg = Debug|Win32
+		{465C3A15-0573-4FD6-B400-F6FACD3C0688}.Debug|Win32.Build.0 = Debug|Win32
+		{465C3A15-0573-4FD6-B400-F6FACD3C0688}.Release|Win32.ActiveCfg = Release|Win32
+		{465C3A15-0573-4FD6-B400-F6FACD3C0688}.Release|Win32.Build.0 = Release|Win32
+		{7D6CDDB6-2238-4C84-A76F-FA9FBE5086C3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7D6CDDB6-2238-4C84-A76F-FA9FBE5086C3}.Debug|Win32.Build.0 = Debug|Win32
+		{7D6CDDB6-2238-4C84-A76F-FA9FBE5086C3}.Release|Win32.ActiveCfg = Release|Win32
+		{7D6CDDB6-2238-4C84-A76F-FA9FBE5086C3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

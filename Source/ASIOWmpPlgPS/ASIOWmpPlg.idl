@@ -1,0 +1,12 @@
+import "oaidl.idl";
+import "ocidl.idl";
+	[
+		object,
+		uuid(3F82C403-0BC8-40AC-86DB-CE0C2972EFAC),
+		helpstring("IASIOWmpPlg Interface")		
+	]
+	interface IASIOWmpPlg : IUnknown
+	{
+		HRESULT getCLSID(CLSID *pVal);
+	    HRESULT putCLSID(CLSID newVal);
+	}
